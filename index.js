@@ -15,7 +15,6 @@ if (!flatArgs.length) {
   console.log('usage: node prepend-header filepath [headerpath]');
   return;
 }
-console.log("flatArgs:", flatArgs)
 const filesOrGlobs = flatArgs.slice(0, flatArgs.length - 1);
 const headerPath = flatArgs[flatArgs.length - 1];
 
