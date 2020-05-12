@@ -1,11 +1,11 @@
 {
   "name": "@gerhobbelt/prepend-header",
-  "version": "1.0.8-1",
+  "version": "1.0.8-2",
   "description": "Use a JS module to define a header to prepend to one or more files.",
   "main": "index.js",
   "scripts": {
     "test": "sh ./test.sh",
-    "pub": "npm run publish --access public"
+    "pub": "npm publish --access public"
   },
   "author": "@silesky",
   "license": "ISC",
