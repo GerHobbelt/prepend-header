@@ -24,6 +24,8 @@ if (moduleIsAvailable(headerPath)) {
   // accept optional header.js
 } else if (moduleIsAvailable(path.join(appPath, headerPath))) {
   header = require(path.join(appPath, headerPath));
+} else if (moduleIsAvailable(path.join(process.cwd(), headerPath))) {
+  header = require(path.join(process.cwd(), headerPath));
 } else if (moduleIsAvailable(`${appPath}/header`)) {
   header = require(`${appPath}/header`);
 } else {
