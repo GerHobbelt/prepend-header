@@ -1,9 +1,10 @@
 {
   "name": "@gerhobbelt/prepend-header",
-  "version": "1.0.8-4",
+  "version": "1.0.9-4",
   "description": "Use a JS module to define a header to prepend to one or more files.",
   "main": "index.js",
   "scripts": {
+    "debug": "node --inspect index.js",
     "test": "sh ./test.sh",
     "pub": "npm publish --access public"
   },
@@ -11,6 +12,9 @@
   "license": "ISC",
   "bin": {
     "prepend-header": "./index.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "glob-fs": "0.1.7",
