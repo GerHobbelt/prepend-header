@@ -16,6 +16,6 @@
   "dependencies": {
     "glob-fs": "0.1.7",
     "minimist": "1.2.5",
-    "prepend-file": "2.0.0"
+    "prepend-to-js-file": "1.3.2"
   }
 }
