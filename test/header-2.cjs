@@ -1,3 +1,5 @@
+const fs = require('fs');   // testing require() works
+
 const year = new Date().getFullYear();
 const text = `/*******************************************************************************
  * Licensed Materials - Property of IBM

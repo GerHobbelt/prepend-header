@@ -2,16 +2,16 @@
   "name": "@gerhobbelt/prepend-header",
   "version": "1.0.10-5",
   "description": "Use a JS module to define a header to prepend to one or more files.",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "debug": "node --inspect index.js",
+    "debug": "node --inspect index.mjs",
     "test": "sh ./test.sh",
     "pub": "npm publish --access public"
   },
   "author": "@silesky",
   "license": "ISC",
   "bin": {
-    "prepend-header": "./index.js"
+    "prepend-header": "./index.mjs"
   },
   "dependencies": {
     "glob-fs": "0.1.7",

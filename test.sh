@@ -12,11 +12,11 @@ setup() {
 
 set -f # disable wildcard expansion
 run_test() {
-  header_path='header.config.js'
+  header_path='header.config.mjs'
   file_path=$1
   #setup
   echo [FILES from $file_path]
-  node index.js $file_path $header_path
+  node . $file_path $header_path
   echo "------"
 }
 
