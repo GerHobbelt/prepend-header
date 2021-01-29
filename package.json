@@ -5,7 +5,7 @@
   "main": "index.mjs",
   "scripts": {
     "debug": "node --inspect index.mjs",
-    "test": "sh ./test.sh",
+    "test": "sh ./test.sh && sh ./test2.sh",
     "pub": "npm publish --access public"
   },
   "author": "@silesky",
